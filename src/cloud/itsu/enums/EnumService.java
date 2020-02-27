@@ -7,6 +7,7 @@ public class EnumService {
         System.out.println("  starting with simple enum");
         GymWorkoutSimpleEnum firstGymDay = GymWorkoutSimpleEnum.SQUATS;
         System.out.println("    first gym workout is " + firstGymDay);
+        System.out.println("    first gym workout's name is " + firstGymDay.name());
 
         System.out.println("    now printing all the gym workouts using .values()");
         for(GymWorkoutSimpleEnum gymWorkout : GymWorkoutSimpleEnum.values())
