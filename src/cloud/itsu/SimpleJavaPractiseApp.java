@@ -5,7 +5,7 @@ import cloud.itsu.enums.EnumService;
 import cloud.itsu.strings.StringEquality;
 
 
-public class SimpleApp {
+public class SimpleJavaPractiseApp {
     public static void main(String[] args) {
         System.out.println("Hello guys - starting the examples " );
         System.out.println("");
